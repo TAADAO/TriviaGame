@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Trivia Game!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href=".\assets\css\style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <h1 id="triviaheadline"> Welcome to Mega Trivia!</h1>
+                    <div class="instructions"> Answer the 8 questions within the 2:00 timeframe! Results will show
+                        how well you did once time is up or all answers submitted! Good luck!
+                    </div>
+                </div>
+                    <div class="col-md-6">Time left = <span id="timer"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <hr>
+            <br>
+            <div class="container">
+                <div class="jumbotron">
+
+                    <div id="quiz"></div>
+                    <button id="submit">Submit Results</button>
+                    <div id="results"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./assets/javascript/app.js"></script>
+</body>
+
+</html>
